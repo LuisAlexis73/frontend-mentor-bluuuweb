@@ -25,7 +25,7 @@ export default ({ ARRAY_IMGS = [], ARRAY_IMG_SMALL = [], isOpenModal = false, ha
     <section {...props}>
       {isOpenModal && <button onClick={handleCloseModal} className="md:col-span-4 text-right">Cerrar</button>}
       <div className="col-span-4 relative">
-        <img src={ARRAY_IMGS[indexImg]} alt="" className="aspect-[16/13] w-full md:aspect-[16/18] rounded-md md:cursor-pointer" onClick={handleOpenModal} />
+        <img src={ARRAY_IMGS[indexImg]} alt="" className="aspect-[16/13] w-full md:aspect-[16/18] rounded-md md:cursor-pointer xl:aspect-[16/16] 2xl:max-h-[600px]" onClick={handleOpenModal} />
         <div ref={btnSlider} className="absolute top-1/2 left-0 -translate-y-1/2 w-full flex justify-between px-4 md:hidden">
 
           <button className="bg-white h-10 w-10 rounded-full grid place-items-center" onClick={handelClickPrev}>

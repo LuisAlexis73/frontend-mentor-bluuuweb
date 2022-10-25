@@ -1,12 +1,12 @@
-import MainHeader from "@/components/header/MainHeader";
-import MainProducts from "../components/products/MainProducts";
+import IndexHeader from "@/components/header/IndexHeader";
+import IndexProducts from "../components/products/IndexProducts";
 
 const App = () => {
   return (
     <>
-      <MainHeader />
+      <IndexHeader />
 
-      <MainProducts />
+      <IndexProducts />
     </>
   )
 }
